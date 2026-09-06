@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58df475642064d74c9c72aa0c2372da8, type: 3}
+  m_Name: "uskumrubal\u0131\u0131k"
+  m_EditorClassIdentifier: 
+  girisTag: "uskumrubal\u0131k"
+  cikisPrefab: {fileID: 2247875587236109494, guid: 839420a908d71f54fbc8be035a7baf73,
+    type: 3}
+  degisimGecikmesi: 0
+  kesmeSesi: {fileID: 11400000, guid: ebdb6b8f1a5534546a0804cf4de3be96, type: 2}

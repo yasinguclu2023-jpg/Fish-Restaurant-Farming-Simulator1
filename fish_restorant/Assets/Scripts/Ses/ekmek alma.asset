@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a0d21e26da01e5449b329541b0f0cff, type: 3}
+  m_Name: ekmek alma
+  m_EditorClassIdentifier: 
+  sesKlipleri:
+  - {fileID: 8300000, guid: b176ea101d58f5546acac6241cd10f75, type: 3}
+  sesSeviyesi: 1
+  pitchAraligi: {x: 0.95, y: 1.05}
+  uzamsallik: 1
+  minMesafe: 1
+  maxMesafe: 20

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: e5e55588740681540b723f6903479d0f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - almaSesi: {fileID: 8300000, guid: 00e99e8961191a541b0cfd960b698354, type: 3}
+  - birakmaSesi: {fileID: 8300000, guid: 57708f9b05a9a5743bd06948be3bf963, type: 3}
+  - hasatSesi: {instanceID: 0}
+  - satisSesi: {instanceID: 0}
+  - kullanimSesi: {instanceID: 0}
+  - kirilmaSesi: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

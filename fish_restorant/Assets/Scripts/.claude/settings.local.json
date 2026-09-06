@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(pip install yt-dlp 2>&1)",
+      "PowerShell(winget install yt-dlp.yt-dlp --accept-source-agreements --accept-package-agreements 2>&1)",
+      "Bash(py --version)",
+      "Bash(find \"c:/Oyun/fish_restorant/Assets\" -maxdepth 3 -iname \"*.md\" -not -path \"*/FishingGameTool/*\" 2>/dev/null; echo \"--- .claude ---\"; ls -R \"c:/Oyun/fish_restorant/Assets/Scripts/.claude\" 2>/dev/null)",
+      "Read(//c/Oyun/fish_restorant/Assets/**)",
+      "Read(//c/Oyun/fish_restorant/Packages/**)",
+      "Read(//c/Oyun/fish_restorant/**)",
+      "Bash(grep -o \"m_SurfaceType.\\\\{0,20\\\\}\\\\|m_ZWriteControl.\\\\{0,20\\\\}\\\\|m_RenderQueueType.\\\\{0,20\\\\}\" Shaders/WaterShader.shadergraph)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\yasin\\OneDrive\\Masaüstü\\fish_restorant\\Assets\\Scripts\\Musteri"
+    ]
+  }
+}
