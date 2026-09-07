@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89543dd7b779be044904d5633cc67a30, type: 3}
+  m_Name: "kad\u0131n"
+  m_EditorClassIdentifier: 
+  olumlu: {fileID: 11400000, guid: eed79b9df54751249bb6bd54b8433198, type: 2}
+  olumsuz: {fileID: 11400000, guid: 19857c61d0d07f942931d4eb0e4eed9c, type: 2}

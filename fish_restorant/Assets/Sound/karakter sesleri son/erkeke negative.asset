@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a0d21e26da01e5449b329541b0f0cff, type: 3}
+  m_Name: erkeke negative
+  m_EditorClassIdentifier: 
+  sesKlipleri:
+  - {fileID: 8300000, guid: 3830bedbde848a14987c784a57800f9c, type: 3}
+  - {fileID: 8300000, guid: 4fd4e2229b784b642a879789a24a9d7b, type: 3}
+  - {fileID: 8300000, guid: 3701a86372f9c1f48bfdc9474df5933e, type: 3}
+  - {fileID: 8300000, guid: 8e697af60318b394bba7cdbd409075b2, type: 3}
+  sesSeviyesi: 1
+  pitchAraligi: {x: 0.95, y: 1.05}
+  uzamsallik: 1
+  minMesafe: 1
+  maxMesafe: 20

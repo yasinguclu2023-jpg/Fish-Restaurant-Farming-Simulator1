@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a0d21e26da01e5449b329541b0f0cff, type: 3}
+  m_Name: "kad\u0131n psoitive"
+  m_EditorClassIdentifier: 
+  sesKlipleri:
+  - {fileID: 8300000, guid: 3732ca0b45581dd4eb6ea3860dccd37b, type: 3}
+  - {fileID: 8300000, guid: ebfeb2f199cd57943a73608fa8a51150, type: 3}
+  - {fileID: 8300000, guid: 660cefd7b7fe5c04c9b87067cbfcd336, type: 3}
+  - {fileID: 8300000, guid: 0a8270376cf8f9c4e856c54e76827001, type: 3}
+  sesSeviyesi: 1
+  pitchAraligi: {x: 0.95, y: 1.05}
+  uzamsallik: 1
+  minMesafe: 1
+  maxMesafe: 20
