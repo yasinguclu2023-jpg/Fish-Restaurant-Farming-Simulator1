@@ -1,0 +1,15 @@
+{
+  "WorkspaceID": "dv.ws.8857ab29-ac48-45fc-b35f-71a4ca404f9e",
+  "RepoID": "dv.repo.bd595c93-f9e2-440c-b115-aded5497d5a0",
+  "Path": "C:\\fish_restorant",
+  "AccountID": "dv.u.b47fabec004a12e7",
+  "BranchID": "dv.branch.1",
+  "BranchName": "main",
+  "CommitID": "dv.commit.7",
+  "Paused": false,
+  "ShouldDownload": false,
+  "RepoName": "fish_restorant",
+  "ReadOnly": false,
+  "DigestMethod": "sha1",
+  "OrganizationTier": "UNKNOWN"
+}

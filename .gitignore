@@ -1,2 +1,6 @@
 
 *.unitypackage
+
+fish_restorant/Library/
+
+fish_restorant/Temp/

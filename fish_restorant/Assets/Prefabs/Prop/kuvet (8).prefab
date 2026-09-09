@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4470976410965811606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4586576868922466946}
+  - component: {fileID: 5890062884021892940}
+  - component: {fileID: 8909156221000364581}
+  - component: {fileID: 7284141026405187666}
+  - component: {fileID: 4795596941548638572}
+  - component: {fileID: 5515016967000188645}
+  - component: {fileID: 1871403545983140478}
+  - component: {fileID: 2522311050735992130}
+  - component: {fileID: 3274355198082406358}
+  m_Layer: 3
+  m_Name: kuvet (8)
+  m_TagString: kuvet
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4586576868922466946
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4470976410965811606}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 53.663433, y: 10.409569, z: 69.41152}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5890062884021892940
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4470976410965811606}
+  m_Mesh: {fileID: 2961655020075353866, guid: 67bd03bb65346bb45b17aa20f72acc89, type: 3}
+--- !u!23 &8909156221000364581
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4470976410965811606}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 676dbf86f56e24548998c9dec84891d5, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7284141026405187666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4470976410965811606}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4218d78ef2d54d0898b7514e121a781f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _color: {r: 0, g: 0.8980393, b: 0.96470594, a: 1}
+--- !u!64 &4795596941548638572
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4470976410965811606}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2961655020075353866, guid: 67bd03bb65346bb45b17aa20f72acc89, type: 3}
+--- !u!114 &5515016967000188645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4470976410965811606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fde2ccf3ab317794e8d74e568adc861c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  urunTanimlari:
+  - tag: domatesdilim
+    gorselPrefab: {fileID: 1418270136757260309, guid: ed37ab9d59eb2f6498264f11041bce8e,
+      type: 3}
+    cikisPrefab: {fileID: 613967401012490324, guid: f2d7b4aa922417749a10c4481ba3a22f,
+      type: 3}
+    cikisTag: domatesdilim
+    almaPrefabi: {fileID: 0}
+    almaTag: 
+    koymaMiktari: 4
+    almaMiktari: 1
+    maksimumKapasite: 20
+  - tag: sogandilim
+    gorselPrefab: {fileID: 6728738263400043331, guid: 8ff5ad80ca15cd14e92a342513fb4c0b,
+      type: 3}
+    cikisPrefab: {fileID: 6887861895563030304, guid: 2402e6c248706834b8c9882637469d45,
+      type: 3}
+    cikisTag: sogandilim
+    almaPrefabi: {fileID: 0}
+    almaTag: 
+    koymaMiktari: 4
+    almaMiktari: 1
+    maksimumKapasite: 20
+  - tag: maruldilim
+    gorselPrefab: {fileID: 8899230479756254874, guid: 32f52ed432e44aa41a0e347cb0b687b5,
+      type: 3}
+    cikisPrefab: {fileID: 3093692971115362656, guid: 9fea4488e87c03d448a8f286c465b0a7,
+      type: 3}
+    cikisTag: maruldilim
+    almaPrefabi: {fileID: 0}
+    almaTag: 
+    koymaMiktari: 4
+    almaMiktari: 1
+    maksimumKapasite: 20
+  - tag: "uskumrubal\u0131kdilim"
+    gorselPrefab: {fileID: 5686280974325736933, guid: dcaa4cc3815931b4ca72ed788645bf4b,
+      type: 3}
+    cikisPrefab: {fileID: 2247875587236109494, guid: 839420a908d71f54fbc8be035a7baf73,
+      type: 3}
+    cikisTag: "uskumrubal\u0131kdilim"
+    almaPrefabi: {fileID: 4413993668932992148, guid: fdaac45f0e30206488990ee4f52ecc65,
+      type: 3}
+    almaTag: "uskumrubal\u0131kdilim"
+    koymaMiktari: 2
+    almaMiktari: 1
+    maksimumKapasite: 17
+  spawnPozisyonu: {fileID: 0}
+  koymaMiktari: 4
+  almaMiktari: 1
+  maksimumKapasite: 20
+--- !u!114 &1871403545983140478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4470976410965811606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c18d738cd04b184cba14c54f89bcc90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  urunContainer: {fileID: 4586576868922466946}
+  maksimumKapasite: 0
+  kabulEdilenTagler: []
+  manuelSlotKullan: 0
+  manuelSlotPozisyonlar: []
+  manuelSlotRotasyonlar: []
+--- !u!114 &2522311050735992130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4470976410965811606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1f8e462a2673f74bb6b707bf8e1e668, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alinirkenkiSes: {fileID: 11400000, guid: 76b062f400edc6c49823a307f2788e19, type: 2}
+  birakilirkenkiSes: {fileID: 11400000, guid: eeb97d0ed471a614688a21b5c761b712, type: 2}
+  etkilesimSesi: {fileID: 0}
+  tasinirkenkiSes: {fileID: 0}
+--- !u!114 &3274355198082406358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4470976410965811606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60b51ef78299985479578c72bb17a4cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kabulEdilenTagler: []
+  yerlesebilecegiLayerlar:
+    serializedVersion: 2
+    m_Bits: 192
+  yereOfset: {x: 0, y: 0, z: 0}
+  kinematicYap: 1
+  colliderAc: 1

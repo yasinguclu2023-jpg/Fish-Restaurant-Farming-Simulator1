@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71be12344edda941af80e1933c9e923, type: 3}
+  m_Name: sarap
+  m_EditorClassIdentifier: 
+  malzemeAdi: Malzeme
+  kategori: 2
+  fiyat: 12
+  ikon: {fileID: 21300000, guid: 622c1f979f2befd46a50da840c3319a4, type: 3}
+  urunTag: 

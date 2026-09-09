@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4420888146428736597
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 288904813123068041, guid: 147648d5ceaaa6b42988f8d896cd387b,
+        type: 3}
+      propertyPath: lengthInSec
+      value: 23.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 288904813123068041, guid: 147648d5ceaaa6b42988f8d896cd387b,
+        type: 3}
+      propertyPath: simulationSpeed
+      value: 1.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 288904813123068041, guid: 147648d5ceaaa6b42988f8d896cd387b,
+        type: 3}
+      propertyPath: ShapeModule.angle
+      value: 17.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 288904813123068041, guid: 147648d5ceaaa6b42988f8d896cd387b,
+        type: 3}
+      propertyPath: ShapeModule.radius.value
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 288904813123068041, guid: 147648d5ceaaa6b42988f8d896cd387b,
+        type: 3}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 288904813123068041, guid: 147648d5ceaaa6b42988f8d896cd387b,
+        type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 3144
+      objectReference: {fileID: 0}
+    - target: {fileID: 288904813123068041, guid: 147648d5ceaaa6b42988f8d896cd387b,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 32.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 288904813123068041, guid: 147648d5ceaaa6b42988f8d896cd387b,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867174669435181676, guid: 147648d5ceaaa6b42988f8d896cd387b,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.094900005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867174669435181676, guid: 147648d5ceaaa6b42988f8d896cd387b,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.094900005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867174669435181676, guid: 147648d5ceaaa6b42988f8d896cd387b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.026859283
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867174669435181676, guid: 147648d5ceaaa6b42988f8d896cd387b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.716567
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867174669435181676, guid: 147648d5ceaaa6b42988f8d896cd387b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5540695
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867174669435181676, guid: 147648d5ceaaa6b42988f8d896cd387b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867174669435181676, guid: 147648d5ceaaa6b42988f8d896cd387b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867174669435181676, guid: 147648d5ceaaa6b42988f8d896cd387b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867174669435181676, guid: 147648d5ceaaa6b42988f8d896cd387b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867174669435181676, guid: 147648d5ceaaa6b42988f8d896cd387b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867174669435181676, guid: 147648d5ceaaa6b42988f8d896cd387b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867174669435181676, guid: 147648d5ceaaa6b42988f8d896cd387b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5615452978966848144, guid: 147648d5ceaaa6b42988f8d896cd387b,
+        type: 3}
+      propertyPath: m_NormalDirection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8565108760279802622, guid: 147648d5ceaaa6b42988f8d896cd387b,
+        type: 3}
+      propertyPath: m_Name
+      value: ekmekMakineSmok Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 147648d5ceaaa6b42988f8d896cd387b, type: 3}

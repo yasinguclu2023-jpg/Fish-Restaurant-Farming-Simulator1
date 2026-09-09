@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - nesne
+  - olta
+  - domates
+  - sogan
+  - marul
+  - sogandilim
+  - maruldilim
+  - domatesdilim
+  - "uskumrubal\u0131k"
+  - "uskumrubal\u0131kdilim"
+  - kuvet
+  - "uskumrubal\u0131ktekdilim"
+  - "\u0131zgara"
+  - maruldilim2
+  - ekmekalt
+  - ekmekust
+  - "sarmakag\u0131d"
+  - uzum
+  - buday
+  - sarapbardak
+  - uzumkasa
+  - budaykasa
+  - birabardak
+  - biramakine
+  - sarapmakine
+  - ekmekmakine
+  - sandwichalt
+  - sandwichust
+  - ahtapot_kol
+  - kalamar
+  - kalamar_kase
+  - sagel
+  - fis
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Etkilesim
+  - Water
+  - UI
+  - Ground
+  - Zemin
+  - Engel
+  - EldeNesne
+  - Izgara
+  - terrerin
+  - iskele
+  - char
+  - HedefIsareti
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
