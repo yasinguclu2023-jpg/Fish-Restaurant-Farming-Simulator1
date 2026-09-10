@@ -1,0 +1,1143 @@
+Using pre-set license
+Built from '2022.3/respin/2022.3.62f2-4af31df585-v2' branch; Version is '2022.3.62f3 (96770f904ca7) revision 9860879'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'tr' Physical Memory: 16004 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/git kraken/Fish-Restaurant-Farming-Simulator1/fish_restorant
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+56343
+Successfully changed project path to: C:/git kraken/Fish-Restaurant-Farming-Simulator1/fish_restorant
+C:/git kraken/Fish-Restaurant-Farming-Simulator1/fish_restorant
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6624]  Target information:
+
+Player connection [6624]  * "[IP] 10.22.60.76 [Port] 0 [Flags] 2 [Guid] 1162634484 [EditorId] 1162634484 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HL8IOMB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6624] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6624] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 3138.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f3 (96770f904ca7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/git kraken/Fish-Restaurant-Farming-Simulator1/fish_restorant/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.16.1692
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.012949 seconds.
+- Loaded All Assemblies, in  5.720 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.239 seconds
+Domain Reload Profiling: 5958ms
+	BeginReloadAssembly (5453ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (166ms)
+		LoadAssemblies (5481ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (121ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (239ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (200ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (128ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.064 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Failed to create .gitignore in Coplay package directory: Sharing violation on path C:\git kraken\Fish-Restaurant-Farming-Simulator1\fish_restorant\Packages\Coplay\.gitignore
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Coplay.Services.ApplicationPaths:.ctor (System.IO.Abstractions.<bb65ca26-0720-4eb0-b5ec-28e5e773a611>IFileSystem,string)
+Coplay.Services.ApplicationPaths:.ctor ()
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver:VisitConstructor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ConstructorCallSite,Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext)
+Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext, object>:VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite,Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext)
+Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver:VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite,Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext)
+Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext, object>:VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite,Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext)
+Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver:Resolve (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite,Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope)
+Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider:CreateServiceAccessor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier)
+System.Collections.Concurrent.ConcurrentDictionary`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier, Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider/ServiceAccessor>:GetOrAdd (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier,System.Func`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier, Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider/ServiceAccessor>)
+Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider:GetService (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier,Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope)
+Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope:GetService (System.Type)
+Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions:GetRequiredService (System.IServiceProvider,System.Type)
+Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions:GetRequiredService<Coplay.Services.IApplicationPaths> (System.IServiceProvider)
+Coplay.Common.Logging.CoplayLoggerConfiguration/<>c__DisplayClass0_0:<AddCoplayLogging>b__0 (System.IServiceProvider,Serilog.<a4b2d26e-ac3b-4054-9a6c-5e3ce9a96c0b>LoggerConfiguration)
+Serilog.<bd0e39ce-cb78-4e01-b06d-080935c10262>SerilogServiceCollectionExtensions/<>c__DisplayClass3_0:<AddSerilog>b__0 (System.IServiceProvider)
+Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver:VisitFactory (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>FactoryCallSite,Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext)
+Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext, object>:VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite,Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext)
+Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver:VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite,Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext)
+Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext, object>:VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite,Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext)
+Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver:Resolve (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite,Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope)
+Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider:CreateServiceAccessor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier)
+System.Collections.Concurrent.ConcurrentDictionary`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier, Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider/ServiceAccessor>:GetOrAdd (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier,System.Func`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier, Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider/ServiceAccessor>)
+Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider:GetService (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier,Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope)
+Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope:GetService (System.Type)
+Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions:GetRequiredService (System.IServiceProvider,System.Type)
+Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions:GetRequiredService<Serilog.<bd0e39ce-cb78-4e01-b06d-080935c10262>SerilogServiceCollectionExtensions/RegisteredLogger> (System.IServiceProvider)
+Serilog.<bd0e39ce-cb78-4e01-b06d-080935c10262>SerilogServiceCollectionExtensions/<>c__DisplayClass3_0:<AddSerilog>b__2 (System.IServiceProvider)
+Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver:VisitFactory (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>FactoryCallSite,Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext)
+Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext, object>:VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite,Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext)
+Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver:VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite,Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext)
+Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext, object>:VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite,Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext)
+Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver:VisitConstructor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ConstructorCallSite,Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext)
+Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext, object>:VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite,Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext)
+Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver:VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite,Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext)
+Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext, object>:VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite,Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext)
+Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver:Resolve (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite,Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope)
+Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider:CreateServiceAccessor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier)
+System.Collections.Concurrent.ConcurrentDictionary`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier, Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider/ServiceAccessor>:GetOrAdd (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier,System.Func`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier, Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider/ServiceAccessor>)
+Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider:GetService (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier,Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope)
+Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider:GetService (System.Type)
+Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions:GetRequiredService (System.IServiceProvider,System.Type)
+Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions:GetRequiredService<Microsoft.Extensions.Logging.<7c056fd6-47af-4484-ae93-65d996e37a68>ILogger`1<Coplay.DependencyInjection.RootScopeServices>> (System.IServiceProvider)
+Coplay.DependencyInjection.RootScopeServices:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.InvalidOperationException: Could not determine the Coplay plugin installation path.
+  at Coplay.Services.ApplicationPaths..ctor (System.IO.Abstractions.<bb65ca26-0720-4eb0-b5ec-28e5e773a611>IFileSystem fileSystem, System.String dataPath) [0x001a7] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Coplay.Services.ApplicationPaths..ctor () [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeConstructorInfo.InternalInvoke(System.Reflection.RuntimeConstructorInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object obj, System.Object[] parameters, System.Boolean wrapExceptions) [0x0001b] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at System.Reflection.RuntimeConstructorInfo.DoInvoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00086] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at System.Reflection.RuntimeConstructorInfo.Invoke (System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitConstructor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ConstructorCallSite constructorCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00045] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0003f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.Resolve (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope scope) [0x00026] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.CreateServiceAccessor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier) [0x00055] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].GetOrAdd (TKey key, System.Func`2[T,TResult] valueFactory) [0x00034] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope serviceProviderEngineScope) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope.GetService (System.Type serviceType) [0x00019] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService (System.IServiceProvider provider, System.Type serviceType) [0x00028] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService[T] (System.IServiceProvider provider) [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Coplay.Common.Logging.CoplayLoggerConfiguration+<>c__DisplayClass0_0.<AddCoplayLogging>b__0 (System.IServiceProvider provider, Serilog.<a4b2d26e-ac3b-4054-9a6c-5e3ce9a96c0b>LoggerConfiguration configuration) [0x00006] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Serilog.<bd0e39ce-cb78-4e01-b06d-080935c10262>SerilogServiceCollectionExtensions+<>c__DisplayClass3_0.<AddSerilog>b__0 (System.IServiceProvider services) [0x00063] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitFactory (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>FactoryCallSite factoryCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x00023] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.Resolve (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope scope) [0x00026] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.CreateServiceAccessor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier) [0x00055] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].GetOrAdd (TKey key, System.Func`2[T,TResult] valueFactory) [0x00034] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope serviceProviderEngineScope) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope.GetService (System.Type serviceType) [0x00019] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService (System.IServiceProvider provider, System.Type serviceType) [0x00028] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService[T] (System.IServiceProvider provider) [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Serilog.<bd0e39ce-cb78-4e01-b06d-080935c10262>SerilogServiceCollectionExtensions+<>c__DisplayClass3_0.<AddSerilog>b__2 (System.IServiceProvider services) [0x00000] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitFactory (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>FactoryCallSite factoryCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x00023] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitConstructor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ConstructorCallSite constructorCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x0002c] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0003f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.Resolve (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope scope) [0x00026] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.CreateServiceAccessor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier) [0x00055] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].GetOrAdd (TKey key, System.Func`2[T,TResult] valueFactory) [0x00034] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope serviceProviderEngineScope) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (System.Type serviceType) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService (System.IServiceProvider provider, System.Type serviceType) [0x00028] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService[T] (System.IServiceProvider provider) [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Coplay.DependencyInjection.RootScopeServices..cctor () [0x00019] in <2370cefae74842df9eff2bc38df7450a>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.850 seconds
+Domain Reload Profiling: 8906ms
+	BeginReloadAssembly (279ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (143ms)
+	LoadAllAssembliesAndSetupDomain (6547ms)
+		LoadAssemblies (5802ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (918ms)
+			TypeCache.Refresh (825ms)
+				TypeCache.ScanAssembly (786ms)
+			ScanForSourceGeneratedMonoScriptInfo (62ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (1853ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1529ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (175ms)
+			ProcessInitializeOnLoadAttributes (1066ms)
+			ProcessInitializeOnLoadMethodAttributes (248ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 11.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6670 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (421.4 KB). Loaded Objects now: 7149.
+Memory consumption went from 262.1 MB to 261.7 MB.
+Total: 8.942000 ms (FindLiveObjects: 0.843400 ms CreateObjectMapping: 0.663000 ms MarkObjects: 7.051100 ms  DeleteObjects: 0.382500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7605.610284 seconds.
+  path: Assets/UI/sogan.png
+  artifactKey: Guid(49d3c87432da45e4284a3745be8fe623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/sogan.png using Guid(49d3c87432da45e4284a3745be8fe623) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bbc1342472403aa39a4d4cc69d6eec4c') in 0.441903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/UI/tutorial banner 1.png
+  artifactKey: Guid(52eb8a520ad43c441aea94a3d4746e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tutorial banner 1.png using Guid(52eb8a520ad43c441aea94a3d4746e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3a5ff2bfa00e76d86ac8afd33489fee7') in 0.111668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/UI/Sebzeler.png
+  artifactKey: Guid(9f010f3d132980248ab9c85906199b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Sebzeler.png using Guid(9f010f3d132980248ab9c85906199b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '321a7035a798143f420eb6efd9585ad2') in 0.110205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/UI/gosterge arka plan.png
+  artifactKey: Guid(bc97850db17faff4ab860b62483e5fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/gosterge arka plan.png using Guid(bc97850db17faff4ab860b62483e5fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8a77bdcf28542e8205a77e76d677d8d2') in 0.125172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/UI/BiraMakine.png
+  artifactKey: Guid(9f7430b8b61c8994abb5460f5578f1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/BiraMakine.png using Guid(9f7430b8b61c8994abb5460f5578f1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd7c7b0a47b8f3f3e6da9b5419ce54f77') in 0.116422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/UI/balık derce gosterme1.png
+  artifactKey: Guid(92325f64856fcf64cbfa9248f26a01ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/balık derce gosterme1.png using Guid(92325f64856fcf64cbfa9248f26a01ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '36cedefcc08a8f567d1f44fc8905dafd') in 0.116503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/UI/Makineler.png
+  artifactKey: Guid(ae000b3705c446b4e968e9843ee7ee4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Makineler.png using Guid(ae000b3705c446b4e968e9843ee7ee4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c6067076406695097ecc355cdbec2a1f') in 0.121172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/UI/tomato.png
+  artifactKey: Guid(464dca96dea08ae42bd54b53b4456260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tomato.png using Guid(464dca96dea08ae42bd54b53b4456260) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '47802e54a66537168dc37301dcb31168') in 0.136519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/UI/AYARLAR/button.png
+  artifactKey: Guid(fec7b182ffc3c3e4994973b759b45cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/AYARLAR/button.png using Guid(fec7b182ffc3c3e4994973b759b45cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '30ea84226f089af290b96925ff577207') in 0.110897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 131
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  9.299 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.InvalidOperationException: Could not determine the Coplay plugin installation path.
+  at Coplay.Services.ApplicationPaths..ctor (System.IO.Abstractions.<bb65ca26-0720-4eb0-b5ec-28e5e773a611>IFileSystem fileSystem, System.String dataPath) [0x001a7] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Coplay.Services.ApplicationPaths..ctor () [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeConstructorInfo.InternalInvoke(System.Reflection.RuntimeConstructorInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object obj, System.Object[] parameters, System.Boolean wrapExceptions) [0x0001b] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at System.Reflection.RuntimeConstructorInfo.DoInvoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00086] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at System.Reflection.RuntimeConstructorInfo.Invoke (System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitConstructor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ConstructorCallSite constructorCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00045] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0003f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.Resolve (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope scope) [0x00026] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.CreateServiceAccessor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier) [0x00055] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].GetOrAdd (TKey key, System.Func`2[T,TResult] valueFactory) [0x00034] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope serviceProviderEngineScope) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope.GetService (System.Type serviceType) [0x00019] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService (System.IServiceProvider provider, System.Type serviceType) [0x00028] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService[T] (System.IServiceProvider provider) [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Coplay.Common.Logging.CoplayLoggerConfiguration+<>c__DisplayClass0_0.<AddCoplayLogging>b__0 (System.IServiceProvider provider, Serilog.<a4b2d26e-ac3b-4054-9a6c-5e3ce9a96c0b>LoggerConfiguration configuration) [0x00006] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Serilog.<bd0e39ce-cb78-4e01-b06d-080935c10262>SerilogServiceCollectionExtensions+<>c__DisplayClass3_0.<AddSerilog>b__0 (System.IServiceProvider services) [0x00063] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitFactory (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>FactoryCallSite factoryCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x00023] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.Resolve (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope scope) [0x00026] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.CreateServiceAccessor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier) [0x00055] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].GetOrAdd (TKey key, System.Func`2[T,TResult] valueFactory) [0x00034] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope serviceProviderEngineScope) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope.GetService (System.Type serviceType) [0x00019] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService (System.IServiceProvider provider, System.Type serviceType) [0x00028] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService[T] (System.IServiceProvider provider) [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Serilog.<bd0e39ce-cb78-4e01-b06d-080935c10262>SerilogServiceCollectionExtensions+<>c__DisplayClass3_0.<AddSerilog>b__2 (System.IServiceProvider services) [0x00000] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitFactory (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>FactoryCallSite factoryCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x00023] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitConstructor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ConstructorCallSite constructorCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x0002c] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0003f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.Resolve (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope scope) [0x00026] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.CreateServiceAccessor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier) [0x00055] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].GetOrAdd (TKey key, System.Func`2[T,TResult] valueFactory) [0x00034] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope serviceProviderEngineScope) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (System.Type serviceType) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService (System.IServiceProvider provider, System.Type serviceType) [0x00028] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService[T] (System.IServiceProvider provider) [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Coplay.DependencyInjection.RootScopeServices..cctor () [0x00019] in <2370cefae74842df9eff2bc38df7450a>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 34.509 seconds
+Domain Reload Profiling: 43805ms
+	BeginReloadAssembly (274ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (8944ms)
+		LoadAssemblies (9061ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (45ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (34509ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1399ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (1251ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 5.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6476 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (387.6 KB). Loaded Objects now: 7188.
+Memory consumption went from 230.0 MB to 229.6 MB.
+Total: 4.223300 ms (FindLiveObjects: 0.370700 ms CreateObjectMapping: 0.216500 ms MarkObjects: 3.323300 ms  DeleteObjects: 0.311700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DuraklatmaMenusu.cs: 6ff4bf62e19c5224a16988dead8dd79f -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 10955337a17f4c38e199d634f4978e6d -> 81073f5cb8e3c9d499357fa91050c08b
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.153 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.InvalidOperationException: Could not determine the Coplay plugin installation path.
+  at Coplay.Services.ApplicationPaths..ctor (System.IO.Abstractions.<bb65ca26-0720-4eb0-b5ec-28e5e773a611>IFileSystem fileSystem, System.String dataPath) [0x001a7] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Coplay.Services.ApplicationPaths..ctor () [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeConstructorInfo.InternalInvoke(System.Reflection.RuntimeConstructorInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object obj, System.Object[] parameters, System.Boolean wrapExceptions) [0x0001b] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at System.Reflection.RuntimeConstructorInfo.DoInvoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00086] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at System.Reflection.RuntimeConstructorInfo.Invoke (System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitConstructor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ConstructorCallSite constructorCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00045] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0003f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.Resolve (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope scope) [0x00026] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.CreateServiceAccessor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier) [0x00055] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].GetOrAdd (TKey key, System.Func`2[T,TResult] valueFactory) [0x00034] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope serviceProviderEngineScope) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope.GetService (System.Type serviceType) [0x00019] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService (System.IServiceProvider provider, System.Type serviceType) [0x00028] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService[T] (System.IServiceProvider provider) [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Coplay.Common.Logging.CoplayLoggerConfiguration+<>c__DisplayClass0_0.<AddCoplayLogging>b__0 (System.IServiceProvider provider, Serilog.<a4b2d26e-ac3b-4054-9a6c-5e3ce9a96c0b>LoggerConfiguration configuration) [0x00006] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Serilog.<bd0e39ce-cb78-4e01-b06d-080935c10262>SerilogServiceCollectionExtensions+<>c__DisplayClass3_0.<AddSerilog>b__0 (System.IServiceProvider services) [0x00063] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitFactory (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>FactoryCallSite factoryCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x00023] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.Resolve (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope scope) [0x00026] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.CreateServiceAccessor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier) [0x00055] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].GetOrAdd (TKey key, System.Func`2[T,TResult] valueFactory) [0x00034] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope serviceProviderEngineScope) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope.GetService (System.Type serviceType) [0x00019] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService (System.IServiceProvider provider, System.Type serviceType) [0x00028] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService[T] (System.IServiceProvider provider) [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Serilog.<bd0e39ce-cb78-4e01-b06d-080935c10262>SerilogServiceCollectionExtensions+<>c__DisplayClass3_0.<AddSerilog>b__2 (System.IServiceProvider services) [0x00000] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitFactory (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>FactoryCallSite factoryCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x00023] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitConstructor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ConstructorCallSite constructorCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x0002c] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0003f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.Resolve (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope scope) [0x00026] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.CreateServiceAccessor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier) [0x00055] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].GetOrAdd (TKey key, System.Func`2[T,TResult] valueFactory) [0x00034] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope serviceProviderEngineScope) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (System.Type serviceType) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService (System.IServiceProvider provider, System.Type serviceType) [0x00028] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService[T] (System.IServiceProvider provider) [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Coplay.DependencyInjection.RootScopeServices..cctor () [0x00019] in <2370cefae74842df9eff2bc38df7450a>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.639 seconds
+Domain Reload Profiling: 4783ms
+	BeginReloadAssembly (300ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (98ms)
+	LoadAllAssembliesAndSetupDomain (645ms)
+		LoadAssemblies (707ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (93ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (5ms)
+			ScanForSourceGeneratedMonoScriptInfo (41ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (3639ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1693ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (228ms)
+			ProcessInitializeOnLoadAttributes (1299ms)
+			ProcessInitializeOnLoadMethodAttributes (129ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 4.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6476 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (387.7 KB). Loaded Objects now: 7208.
+Memory consumption went from 230.1 MB to 229.7 MB.
+Total: 3.450200 ms (FindLiveObjects: 0.370600 ms CreateObjectMapping: 0.231800 ms MarkObjects: 2.751200 ms  DeleteObjects: 0.095600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DuraklatmaMenusu.cs: 6ff4bf62e19c5224a16988dead8dd79f -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 10955337a17f4c38e199d634f4978e6d -> 81073f5cb8e3c9d499357fa91050c08b
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.497 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.InvalidOperationException: Could not determine the Coplay plugin installation path.
+  at Coplay.Services.ApplicationPaths..ctor (System.IO.Abstractions.<bb65ca26-0720-4eb0-b5ec-28e5e773a611>IFileSystem fileSystem, System.String dataPath) [0x001a7] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Coplay.Services.ApplicationPaths..ctor () [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeConstructorInfo.InternalInvoke(System.Reflection.RuntimeConstructorInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object obj, System.Object[] parameters, System.Boolean wrapExceptions) [0x0001b] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at System.Reflection.RuntimeConstructorInfo.DoInvoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00086] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at System.Reflection.RuntimeConstructorInfo.Invoke (System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitConstructor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ConstructorCallSite constructorCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00045] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0003f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.Resolve (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope scope) [0x00026] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.CreateServiceAccessor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier) [0x00055] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].GetOrAdd (TKey key, System.Func`2[T,TResult] valueFactory) [0x00034] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope serviceProviderEngineScope) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope.GetService (System.Type serviceType) [0x00019] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService (System.IServiceProvider provider, System.Type serviceType) [0x00028] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService[T] (System.IServiceProvider provider) [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Coplay.Common.Logging.CoplayLoggerConfiguration+<>c__DisplayClass0_0.<AddCoplayLogging>b__0 (System.IServiceProvider provider, Serilog.<a4b2d26e-ac3b-4054-9a6c-5e3ce9a96c0b>LoggerConfiguration configuration) [0x00006] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Serilog.<bd0e39ce-cb78-4e01-b06d-080935c10262>SerilogServiceCollectionExtensions+<>c__DisplayClass3_0.<AddSerilog>b__0 (System.IServiceProvider services) [0x00063] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitFactory (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>FactoryCallSite factoryCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x00023] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.Resolve (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope scope) [0x00026] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.CreateServiceAccessor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier) [0x00055] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].GetOrAdd (TKey key, System.Func`2[T,TResult] valueFactory) [0x00034] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope serviceProviderEngineScope) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope.GetService (System.Type serviceType) [0x00019] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService (System.IServiceProvider provider, System.Type serviceType) [0x00028] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService[T] (System.IServiceProvider provider) [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Serilog.<bd0e39ce-cb78-4e01-b06d-080935c10262>SerilogServiceCollectionExtensions+<>c__DisplayClass3_0.<AddSerilog>b__2 (System.IServiceProvider services) [0x00000] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitFactory (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>FactoryCallSite factoryCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x00023] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitConstructor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ConstructorCallSite constructorCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x0002c] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0003f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.Resolve (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope scope) [0x00026] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.CreateServiceAccessor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier) [0x00055] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].GetOrAdd (TKey key, System.Func`2[T,TResult] valueFactory) [0x00034] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope serviceProviderEngineScope) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (System.Type serviceType) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService (System.IServiceProvider provider, System.Type serviceType) [0x00028] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService[T] (System.IServiceProvider provider) [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Coplay.DependencyInjection.RootScopeServices..cctor () [0x00019] in <2370cefae74842df9eff2bc38df7450a>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.218 seconds
+Domain Reload Profiling: 1713ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (292ms)
+		LoadAssemblies (334ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1218ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (687ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (541ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 10.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6476 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (387.8 KB). Loaded Objects now: 7228.
+Memory consumption went from 230.1 MB to 229.7 MB.
+Total: 6.078400 ms (FindLiveObjects: 0.698200 ms CreateObjectMapping: 0.430000 ms MarkObjects: 4.742600 ms  DeleteObjects: 0.203700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DuraklatmaMenusu.cs: 6ff4bf62e19c5224a16988dead8dd79f -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 10955337a17f4c38e199d634f4978e6d -> 81073f5cb8e3c9d499357fa91050c08b
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.635 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.InvalidOperationException: Could not determine the Coplay plugin installation path.
+  at Coplay.Services.ApplicationPaths..ctor (System.IO.Abstractions.<bb65ca26-0720-4eb0-b5ec-28e5e773a611>IFileSystem fileSystem, System.String dataPath) [0x001a7] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Coplay.Services.ApplicationPaths..ctor () [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeConstructorInfo.InternalInvoke(System.Reflection.RuntimeConstructorInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object obj, System.Object[] parameters, System.Boolean wrapExceptions) [0x0001b] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at System.Reflection.RuntimeConstructorInfo.DoInvoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00086] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at System.Reflection.RuntimeConstructorInfo.Invoke (System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitConstructor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ConstructorCallSite constructorCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00045] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0003f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.Resolve (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope scope) [0x00026] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.CreateServiceAccessor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier) [0x00055] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].GetOrAdd (TKey key, System.Func`2[T,TResult] valueFactory) [0x00034] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope serviceProviderEngineScope) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope.GetService (System.Type serviceType) [0x00019] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService (System.IServiceProvider provider, System.Type serviceType) [0x00028] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService[T] (System.IServiceProvider provider) [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Coplay.Common.Logging.CoplayLoggerConfiguration+<>c__DisplayClass0_0.<AddCoplayLogging>b__0 (System.IServiceProvider provider, Serilog.<a4b2d26e-ac3b-4054-9a6c-5e3ce9a96c0b>LoggerConfiguration configuration) [0x00006] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Serilog.<bd0e39ce-cb78-4e01-b06d-080935c10262>SerilogServiceCollectionExtensions+<>c__DisplayClass3_0.<AddSerilog>b__0 (System.IServiceProvider services) [0x00063] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitFactory (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>FactoryCallSite factoryCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x00023] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.Resolve (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope scope) [0x00026] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.CreateServiceAccessor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier) [0x00055] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].GetOrAdd (TKey key, System.Func`2[T,TResult] valueFactory) [0x00034] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope serviceProviderEngineScope) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope.GetService (System.Type serviceType) [0x00019] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService (System.IServiceProvider provider, System.Type serviceType) [0x00028] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService[T] (System.IServiceProvider provider) [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Serilog.<bd0e39ce-cb78-4e01-b06d-080935c10262>SerilogServiceCollectionExtensions+<>c__DisplayClass3_0.<AddSerilog>b__2 (System.IServiceProvider services) [0x00000] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitFactory (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>FactoryCallSite factoryCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x00023] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitConstructor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ConstructorCallSite constructorCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x0002c] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0003f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.Resolve (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope scope) [0x00026] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.CreateServiceAccessor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier) [0x00055] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].GetOrAdd (TKey key, System.Func`2[T,TResult] valueFactory) [0x00034] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope serviceProviderEngineScope) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (System.Type serviceType) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService (System.IServiceProvider provider, System.Type serviceType) [0x00028] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService[T] (System.IServiceProvider provider) [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Coplay.DependencyInjection.RootScopeServices..cctor () [0x00019] in <2370cefae74842df9eff2bc38df7450a>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.284 seconds
+Domain Reload Profiling: 1916ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (374ms)
+		LoadAssemblies (417ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (45ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1284ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (665ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (526ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 3.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6476 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (387.8 KB). Loaded Objects now: 7248.
+Memory consumption went from 230.2 MB to 229.8 MB.
+Total: 3.374300 ms (FindLiveObjects: 0.342100 ms CreateObjectMapping: 0.223800 ms MarkObjects: 2.710700 ms  DeleteObjects: 0.096600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DuraklatmaMenusu.cs: 6ff4bf62e19c5224a16988dead8dd79f -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 10955337a17f4c38e199d634f4978e6d -> 81073f5cb8e3c9d499357fa91050c08b
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.510 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.InvalidOperationException: Could not determine the Coplay plugin installation path.
+  at Coplay.Services.ApplicationPaths..ctor (System.IO.Abstractions.<bb65ca26-0720-4eb0-b5ec-28e5e773a611>IFileSystem fileSystem, System.String dataPath) [0x001a7] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Coplay.Services.ApplicationPaths..ctor () [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeConstructorInfo.InternalInvoke(System.Reflection.RuntimeConstructorInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object obj, System.Object[] parameters, System.Boolean wrapExceptions) [0x0001b] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at System.Reflection.RuntimeConstructorInfo.DoInvoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00086] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at System.Reflection.RuntimeConstructorInfo.Invoke (System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitConstructor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ConstructorCallSite constructorCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00045] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0003f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.Resolve (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope scope) [0x00026] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.CreateServiceAccessor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier) [0x00055] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].GetOrAdd (TKey key, System.Func`2[T,TResult] valueFactory) [0x00034] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope serviceProviderEngineScope) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope.GetService (System.Type serviceType) [0x00019] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService (System.IServiceProvider provider, System.Type serviceType) [0x00028] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService[T] (System.IServiceProvider provider) [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Coplay.Common.Logging.CoplayLoggerConfiguration+<>c__DisplayClass0_0.<AddCoplayLogging>b__0 (System.IServiceProvider provider, Serilog.<a4b2d26e-ac3b-4054-9a6c-5e3ce9a96c0b>LoggerConfiguration configuration) [0x00006] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Serilog.<bd0e39ce-cb78-4e01-b06d-080935c10262>SerilogServiceCollectionExtensions+<>c__DisplayClass3_0.<AddSerilog>b__0 (System.IServiceProvider services) [0x00063] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitFactory (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>FactoryCallSite factoryCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x00023] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.Resolve (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope scope) [0x00026] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.CreateServiceAccessor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier) [0x00055] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].GetOrAdd (TKey key, System.Func`2[T,TResult] valueFactory) [0x00034] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope serviceProviderEngineScope) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope.GetService (System.Type serviceType) [0x00019] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService (System.IServiceProvider provider, System.Type serviceType) [0x00028] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService[T] (System.IServiceProvider provider) [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Serilog.<bd0e39ce-cb78-4e01-b06d-080935c10262>SerilogServiceCollectionExtensions+<>c__DisplayClass3_0.<AddSerilog>b__2 (System.IServiceProvider services) [0x00000] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitFactory (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>FactoryCallSite factoryCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x00023] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitConstructor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ConstructorCallSite constructorCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x0002c] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0003f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.Resolve (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope scope) [0x00026] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.CreateServiceAccessor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier) [0x00055] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].GetOrAdd (TKey key, System.Func`2[T,TResult] valueFactory) [0x00034] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope serviceProviderEngineScope) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (System.Type serviceType) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService (System.IServiceProvider provider, System.Type serviceType) [0x00028] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService[T] (System.IServiceProvider provider) [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Coplay.DependencyInjection.RootScopeServices..cctor () [0x00019] in <2370cefae74842df9eff2bc38df7450a>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.276 seconds
+Domain Reload Profiling: 1784ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (288ms)
+		LoadAssemblies (330ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1277ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (720ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (569ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 5.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6476 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (387.5 KB). Loaded Objects now: 7268.
+Memory consumption went from 230.2 MB to 229.8 MB.
+Total: 4.134800 ms (FindLiveObjects: 0.404500 ms CreateObjectMapping: 0.358100 ms MarkObjects: 3.259500 ms  DeleteObjects: 0.111600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DuraklatmaMenusu.cs: 6ff4bf62e19c5224a16988dead8dd79f -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 10955337a17f4c38e199d634f4978e6d -> 81073f5cb8e3c9d499357fa91050c08b
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.556 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.InvalidOperationException: Could not determine the Coplay plugin installation path.
+  at Coplay.Services.ApplicationPaths..ctor (System.IO.Abstractions.<bb65ca26-0720-4eb0-b5ec-28e5e773a611>IFileSystem fileSystem, System.String dataPath) [0x001a7] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Coplay.Services.ApplicationPaths..ctor () [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeConstructorInfo.InternalInvoke(System.Reflection.RuntimeConstructorInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object obj, System.Object[] parameters, System.Boolean wrapExceptions) [0x0001b] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at System.Reflection.RuntimeConstructorInfo.DoInvoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00086] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at System.Reflection.RuntimeConstructorInfo.Invoke (System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitConstructor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ConstructorCallSite constructorCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00045] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0003f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.Resolve (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope scope) [0x00026] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.CreateServiceAccessor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier) [0x00055] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].GetOrAdd (TKey key, System.Func`2[T,TResult] valueFactory) [0x00034] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope serviceProviderEngineScope) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope.GetService (System.Type serviceType) [0x00019] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService (System.IServiceProvider provider, System.Type serviceType) [0x00028] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService[T] (System.IServiceProvider provider) [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Coplay.Common.Logging.CoplayLoggerConfiguration+<>c__DisplayClass0_0.<AddCoplayLogging>b__0 (System.IServiceProvider provider, Serilog.<a4b2d26e-ac3b-4054-9a6c-5e3ce9a96c0b>LoggerConfiguration configuration) [0x00006] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Serilog.<bd0e39ce-cb78-4e01-b06d-080935c10262>SerilogServiceCollectionExtensions+<>c__DisplayClass3_0.<AddSerilog>b__0 (System.IServiceProvider services) [0x00063] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitFactory (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>FactoryCallSite factoryCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x00023] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.Resolve (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope scope) [0x00026] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.CreateServiceAccessor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier) [0x00055] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].GetOrAdd (TKey key, System.Func`2[T,TResult] valueFactory) [0x00034] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope serviceProviderEngineScope) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope.GetService (System.Type serviceType) [0x00019] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService (System.IServiceProvider provider, System.Type serviceType) [0x00028] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService[T] (System.IServiceProvider provider) [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Serilog.<bd0e39ce-cb78-4e01-b06d-080935c10262>SerilogServiceCollectionExtensions+<>c__DisplayClass3_0.<AddSerilog>b__2 (System.IServiceProvider services) [0x00000] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitFactory (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>FactoryCallSite factoryCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x00023] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitConstructor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ConstructorCallSite constructorCallSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x0002c] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSiteMain (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0003f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.VisitRootCache (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>RuntimeResolverContext context) [0x00061] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteVisitor`2[TArgument,TResult].VisitCallSite (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, TArgument argument) [0x0004f] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>CallSiteRuntimeResolver.Resolve (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceCallSite callSite, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope scope) [0x00026] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.CreateServiceAccessor (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier) [0x00055] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue].GetOrAdd (TKey key, System.Func`2[T,TResult] valueFactory) [0x00034] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceIdentifier serviceIdentifier, Microsoft.Extensions.DependencyInjection.ServiceLookup.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProviderEngineScope serviceProviderEngineScope) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<fd845d3f-5554-448e-8276-c390248dec8b>ServiceProvider.GetService (System.Type serviceType) [0x0000d] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService (System.IServiceProvider provider, System.Type serviceType) [0x00028] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Microsoft.Extensions.DependencyInjection.<03239ec6-c58a-4857-9007-88b5ce2571b7>ServiceProviderServiceExtensions.GetRequiredService[T] (System.IServiceProvider provider) [0x0000b] in <2370cefae74842df9eff2bc38df7450a>:0 
+  at Coplay.DependencyInjection.RootScopeServices..cctor () [0x00019] in <2370cefae74842df9eff2bc38df7450a>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.377 seconds
+Domain Reload Profiling: 1931ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (312ms)
+		LoadAssemblies (358ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1378ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (766ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (606ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 4.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6476 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (387.9 KB). Loaded Objects now: 7288.
+Memory consumption went from 230.3 MB to 229.9 MB.
+Total: 4.409200 ms (FindLiveObjects: 0.453400 ms CreateObjectMapping: 0.259600 ms MarkObjects: 3.528500 ms  DeleteObjects: 0.166200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DuraklatmaMenusu.cs: 6ff4bf62e19c5224a16988dead8dd79f -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 10955337a17f4c38e199d634f4978e6d -> 81073f5cb8e3c9d499357fa91050c08b
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5028.718755 seconds.
+  path: Assets/Capsule.prefab
+  artifactKey: Guid(7d83ecc975c80784cb110c4c54f47ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Capsule.prefab using Guid(7d83ecc975c80784cb110c4c54f47ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5acfdef4120c45fcce3f28f2ab71a1f5') in 0.360000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 1.089951 seconds.
+  path: Assets/Capsule 1.prefab
+  artifactKey: Guid(4170c311c742e244ea37dfdb6cca581f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Capsule 1.prefab using Guid(4170c311c742e244ea37dfdb6cca581f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8ccd4863c0ffb98d11de3b4bee8de209') in 0.057068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85

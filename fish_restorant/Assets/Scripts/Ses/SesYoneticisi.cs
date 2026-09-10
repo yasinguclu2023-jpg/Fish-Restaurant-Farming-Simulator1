@@ -155,7 +155,7 @@ public class SesYoneticisi : MonoBehaviour
 
     System.Collections.IEnumerator SesBitinceKapat(AudioSource source, float sure)
     {
-        yield return new WaitForSeconds(sure + 0.1f);
+        yield return new WaitForSecondsRealtime(sure + 0.1f); // timeScale = 0 (duraklatma) iken de havuza geri doner
 
         if (source != null)
         {

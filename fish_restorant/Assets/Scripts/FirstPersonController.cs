@@ -38,12 +38,8 @@ public class FirstPersonController : MonoBehaviour
         HandleMovement();
         HandleMouseLook();
 
-        // Press Escape to unlock cursor
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
-        }
+        // NOT: Escape tusu artik DuraklatmaMenusu tarafindan yonetiliyor.
+        // (Imlec kilidi ve oyunun durdurulmasi orada yapiliyor.)
     }
 
     void HandleMovement()

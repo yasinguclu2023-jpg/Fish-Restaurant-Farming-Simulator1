@@ -26,6 +26,24 @@ public class UIYoneticisi : MonoBehaviour
     /// <summary>Sahnede şu an açık bir UI paneli var mı? (Sulama/alma sistemleri buna bakar.)</summary>
     public static bool HerhangiBirUIAcikMi => acikUISayisi > 0;
 
+    /// <summary>
+    /// Bu sınıfa ait olmayan bir panel (örn. DuraklatmaMenusu) açıldığında çağrılır.
+    /// Böylece oyun içi etkileşimler o panel için de kilitlenir.
+    /// Her çağrıya karşılık bir UIKapandiBildir() çağrılmalıdır.
+    /// </summary>
+    public static void UIAcildiBildir()
+    {
+        acikUISayisi++;
+    }
+
+    /// <summary>
+    /// UIAcildiBildir() ile açılan harici panel kapandığında çağrılır.
+    /// </summary>
+    public static void UIKapandiBildir()
+    {
+        acikUISayisi = Mathf.Max(0, acikUISayisi - 1);
+    }
+
     void Start()
     {
         if (uiPaneli != null)
